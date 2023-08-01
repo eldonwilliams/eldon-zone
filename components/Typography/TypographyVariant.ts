@@ -17,21 +17,28 @@ const TypographyVariant = tv({
 		},
 		interactive: {
 			true: "hover:cursor-pointer",
+			normal: "hover:cursor-default",
 		},
 		bold: {
 			true: "font-bold",
+			// Use the normal to reset
+			normal: "font-normal",
 		},
 		italic: {
 			true: "italic",
+			normal: "not-italic",
 		},
 		underline: {
 			true: "underline",
+			normal: "no-underline",
 		},
 		highlight: {
 			true: "pl-1 pr-1 bg-yellow-200 dark:bg-yellow-600",
+			normal: "pl-0 pr-0 bg-transparent",
 		},
 		noselect: {
 			true: "select-none",
+			normal: "select-text",
 		},
 	},
 	compoundVariants: [
