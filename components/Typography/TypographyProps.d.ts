@@ -8,6 +8,11 @@ export type TypographyStyle =  VariantProps<typeof TypographyVariant>;
  */
 export type TextTypographyProps = {
 	children?: string;
+
+	/**
+	 * The element to render the text as
+	 */
+	element?: keyof React.ReactHTML;
 } & TypographyStyle & React.HTMLAttributes<HTMLParagraphElement>;
 
 /**
@@ -32,4 +37,6 @@ export type TypographyProps = (TextTypographyProps | GroupTypographyProps) & {
 	 * @see https://www.npmjs.com/package/react-twemoji
 	 */
 	twemoji?: boolean;
+
+	[other: string]: any;
 };
