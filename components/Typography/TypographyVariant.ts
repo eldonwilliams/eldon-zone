@@ -9,6 +9,11 @@ const TypographyVariant = tv({
 	variants: {
 		color: {
 			primary: "text-black dark:text-white",
+			secondary: "text-gray-600 dark:text-gray-400",
+			error: "text-rose-600 dark:text-rose-500",
+			success: "text-green-500",
+			warning: "text-yellow-500 dark:text-amber-500",
+			info: "text-blue-500 dark:text-blue-400",
 		},
 		interactive: {
 			true: "hover:cursor-pointer",
@@ -41,6 +46,26 @@ const TypographyVariant = tv({
 			color: "secondary",
 			class: "hover:brightness-75 dark:hover:brightness-120",
 		},
+		{
+			interactive: true,
+			color: "error",
+			class: "hover:brightness-75 dark:hover:brightness-120",
+		},
+		{
+			interactive: true,
+			color: "success",
+			class: "hover:brightness-75 dark:hover:brightness-120",
+		},
+		{
+			interactive: true,
+			color: "warning",
+			class: "hover:brightness-75 dark:hover:brightness-120",
+		},
+		{
+			interactive: true,
+			color: "info",
+			class: "hover:brightness-75 dark:hover:brightness-110",
+		}
 	],
 	defaultVariants: {
 		color: "primary",
