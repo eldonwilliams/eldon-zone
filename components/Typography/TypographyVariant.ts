@@ -5,7 +5,7 @@ import { tv } from "tailwind-variants";
  * Reusable styling for typography
  */
 const TypographyVariant = tv({
-	base: "max-w-min whitespace-nowrap",
+	base: "max-w-max",
 	variants: {
 		color: {
 			primary: "text-black dark:text-white",
