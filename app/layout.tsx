@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   authors: {name: 'Eldon Williams', url: 'https://eldon.zone/'},
   robots: "index, follow",
   themeColor: "#000000",
+	formatDetection: {
+		telephone: false,
+	},
 }
 
 export default function RootLayout({
