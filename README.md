@@ -1,3 +1,3 @@
 # Eldon Zone
 
-(https://eldon.zone)[https://eldon.zone] my website
+[eldon.zone](https://eldon.zone/) my website
