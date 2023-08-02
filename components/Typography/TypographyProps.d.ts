@@ -13,7 +13,7 @@ export type TextTypographyProps = {
 	 * The element to render the text as
 	 */
 	element?: keyof React.ReactHTML;
-} & TypographyStyle & React.HTMLAttributes<HTMLParagraphElement>;
+} & TypographyStyle & React.HTMLAttributes<HTMLSpanElement>;
 
 /**
  * Props for Typography components that are used in a group
@@ -22,7 +22,7 @@ export type TextTypographyProps = {
  */
 export type GroupTypographyProps = {
 	children?: React.ReactElement | React.ReactElement[];
-} & TypographyStyle & React.HTMLAttributes<HTMLSpanElement>;
+} & TypographyStyle & React.HTMLAttributes<HTMLParagraphElement>;
 
 /**
  * Props for the Typography component
