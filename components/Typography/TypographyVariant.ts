@@ -15,6 +15,22 @@ const TypographyVariant = tv({
 			warning: "text-yellow-500 dark:text-amber-500",
 			info: "text-blue-500 dark:text-blue-400",
 		},
+		font: {
+			mono: "font-mono",
+			sans: "font-sans",
+			serif: "font-serif",
+		},
+		weight: {
+			thin: "font-thin",
+			extralight: "font-extralight",
+			light: "font-light",
+			normal: "font-normal",
+			medium: "font-medium",
+			semibold: "font-semibold",
+			bold: "font-bold",
+			extrabold: "font-extrabold",
+			black: "font-black",
+		},
 		interactive: {
 			true: "hover:cursor-pointer",
 			normal: "hover:cursor-default",
