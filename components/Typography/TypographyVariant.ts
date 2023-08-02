@@ -56,6 +56,9 @@ const TypographyVariant = tv({
 			true: "select-none",
 			normal: "select-text",
 		},
+		block: {
+			true: "block",
+		}
 	},
 	compoundVariants: [
 		// If interactive, handle color
@@ -98,6 +101,7 @@ const TypographyVariant = tv({
 		underline: false,
 		highlight: false,
 		noselect: false,
+		block: false,
 	}
 });
 
