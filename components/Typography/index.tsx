@@ -14,8 +14,7 @@ export default function Typography(props: TypographyProps) {
 
 	return (
 		React.createElement(
-			isTextTypography ? element ?? "span" : "p", // If the children is a string, use a paragraph (or variant) tag, otherwise use a span tag
-			{ ...componentProps, className: `${componentProps.className ?? ""} ${TypographyVariant(styleProps)}`, }, // Spread the component props and add the TypographyVariant class
+			element ?? (isTextTypography ? "span" : "p"), // If the children is a string, use a paragraph (or variant) tag, otherwise use a span tag
 			(twemoji ?? true) && isTextTypography ?
 				emoji(children, {
 					ext: '.png',
