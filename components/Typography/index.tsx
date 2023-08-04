@@ -8,8 +8,8 @@ import emoji from "react-easy-emoji";
  * Typography - A component to display text
  */
 export default function Typography(props: TypographyProps) {
-	const { children, element, twemoji, color, font, weight, interactive, bold, italic, underline, highlight, noselect, block, ...componentProps } = props;
-	const styleProps = { color, font, weight, interactive, bold, italic, underline, highlight, noselect, block };
+	const { children, element, twemoji, color, font, weight, interactive, size, bold, italic, underline, highlight, noselect, block, ...componentProps } = props;
+	const styleProps = { color, font, weight, interactive, size, bold, italic, underline, highlight, noselect, block };
 	const isTextTypography = typeof children === "string";
 
 	return (
