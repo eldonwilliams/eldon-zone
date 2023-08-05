@@ -1,4 +1,10 @@
 import { tv } from "tailwind-variants";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+	weight: ["100", "300", "400", "500", "700", "900"],
+	subsets: ["latin-ext"],
+});
 
 /**
  * Typography tailwind variants -
@@ -16,6 +22,7 @@ const TypographyVariant = tv({
 			info: "text-blue-500 dark:text-blue-400",
 		},
 		font: {
+			roboto: roboto.className,
 			mono: "font-mono",
 			sans: "font-sans",
 			serif: "font-serif",
@@ -116,6 +123,7 @@ const TypographyVariant = tv({
 		highlight: false,
 		noselect: false,
 		block: false,
+		font: "roboto",
 	}
 });
 
