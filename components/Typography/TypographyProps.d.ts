@@ -7,7 +7,7 @@ export type TypographyStyle =  VariantProps<typeof TypographyVariant>;
  * Props for a Typography Component that is used as a text
  */
 export type TextTypographyProps = {
-	children?: string;
+	children?: string | any;
 
 	/**
 	 * The element to render the text as
