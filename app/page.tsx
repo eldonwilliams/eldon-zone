@@ -34,7 +34,7 @@ export default function Home() {
 					<Improving />
 				</main>
 				<footer className="p-2 w-full sm:w-auto">
-					<Typography className="text-center min-w-full" color="secondary" element="p">Made with ❤️ by Eldon and Clair Williams</Typography>
+					<Typography className="text-center min-w-full" color="secondary" element="p">Made with ❤️ by Eldon Williams</Typography>
 				</footer>
 			</div>
 		</>
